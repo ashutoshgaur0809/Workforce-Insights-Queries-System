@@ -1,0 +1,54 @@
+-- Q1  Write Query to fetch FirstName from Worker table
+-- select FIRST_NAME as WORKER_NAME from Worker;
+O/P
+WORKER_NAME
+Monika
+Niharika
+Vishal
+Amitabh
+Vivek
+Vipul
+Satish
+Geetika
+
+-- Q-2. Write an SQL query to fetch “FIRST_NAME” from the Worker table in upper case.
+-- select Upper(FIRST_NAME) from Worker;
+O/P
+Upper(FIRST_NAME)
+MONIKA
+NIHARIKA
+VISHAL
+AMITABH
+VIVEK
+VIPUL
+SATISH
+GEETIKA
+
+-- Q-3. Write an SQL query to fetch unique values of DEPARTMENT from the Worker table
+-- select distinct DEPARTMENT from Worker;
+-- select DEPARTMENT from Worker group by DEPARTMENT;
+O/P
+DEPARTMENT
+HR
+Admin
+Account
+
+-- Q-4. Write an SQL query to print the first three characters of  FIRST_NAME from the Worker table.
+-- select Substring(First_Name,1,3) from Worker
+O/P
+Substring(First_Name,1,3)
+Mon
+Nih
+Vis
+Ami
+Viv
+Vip
+Sat
+Gee
+
+-- Q-5. Write an SQL query to find the position of the alphabet (‘a’) in the first name column 
+-- ‘Amitabh’ from the Worker table.
+-- select INSTR(First_Name,"a") from Worker where First_Name = "Amitabh";
+O/P
+INSTR(First_Name,"a")
+1
